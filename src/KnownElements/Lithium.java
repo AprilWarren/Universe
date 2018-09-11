@@ -1,13 +1,15 @@
-package Atoms;
-import BuildingBlocks.*;
+package KnownElements;
 
+import BuildingBlocks.Electron;
+import BuildingBlocks.Neutron;
+import BuildingBlocks.Proton;
 
-public class Hydrogen {
-    private int amountOfElectrons = 1;
-    private int amountOfProtons = 1;
+public class Lithium {
+    private int amountOfElectrons = 2;
+    private int amountOfProtons = 2;
     private int amountOfNeutrons = 0;
 
-    public Hydrogen(){
+    public Lithium(){
         for(int i = 0; i < this.amountOfElectrons; i++){
             Electron electron = new Electron();
         }
